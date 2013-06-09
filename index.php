@@ -24,7 +24,13 @@
         <!-- Add your site or application content here -->
 		<div class="container">
 		
-			<p><a href="">Hello WWWorld</a></p>
+			<p>
+				<a href="">
+					<?php
+						echo $_SERVER['SERVER_ADDR'];
+					?>
+				</a>
+			</p>
 			<p class="clock"></p>
 		   
 	   </div>
