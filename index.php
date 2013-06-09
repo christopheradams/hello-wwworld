@@ -28,7 +28,7 @@
 			<?php
 				echo $_SERVER['SERVER_ADDR'];
 			?>
-          <small class="clock"></small>
+          <small><span class="clock"></span> UTC</small>
         </h1>
       </div> <!-- /demo-headline -->
       </div>
