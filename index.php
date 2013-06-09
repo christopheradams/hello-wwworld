@@ -9,11 +9,11 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
+		
+		<link rel="shortcut icon" href="favicon.ico">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/flat-ui.css" rel="stylesheet">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -21,19 +21,17 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-		<div class="container">
-		
-			<p>
-				<a href="">
-					<?php
-						echo $_SERVER['SERVER_ADDR'];
-					?>
-				</a>
-			</p>
-			<p class="clock"></p>
-		   
-	   </div>
+    <div class="container">
+      <div class="demo-headline">
+        <h1 class="demo-logo">
+          <div class="logo"></div>
+			<?php
+				echo $_SERVER['SERVER_ADDR'];
+			?>
+          <small class="clock"></small>
+        </h1>
+      </div> <!-- /demo-headline -->
+      </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
